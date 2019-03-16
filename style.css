@@ -26,7 +26,6 @@ table, th, td
   border: 1px solid black;
   border-collapse: collapse;
   border-spacing: 5px;
-  background-color: #f1f1c1;
 }
 
 th, td {
@@ -35,38 +34,39 @@ th, td {
 
 th {
   text-align: center;
-  background-color: #74B9FF;
 }
 
+/* Points Table Tags */
 .table1
 {
   width: 60%;
   padding-bottom: 100px;
+  
 }
-
-
-.table1 tr:nth-child(even) {
-  background-color: #eee;
+.table1 tr:nth-child(even) 
+{
+  background-color: #dddddd;
 }
-.table1 tr:nth-child(odd) {
-  background-color: #fff;
+.table1 tr:nth-child(odd) 
+{
+  background-color: #ffffff;
 }
-.table1 th {
+.table1 th
+{
   color: white;
-  background-color: black;
+  background-color: #74B9FF;
 }
 
+/* Header Tags */
 .main-nav 
 {
     float: right;
     list-style: none;
 }
-
 .main-nav li
 {
     display: inline-block;
 }
-
 .main-nav li a
 {
     color: white;
@@ -74,30 +74,27 @@ th {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
 }
-
 .main-nav li.active a
 {
     border: 2px solid white;
 }
-
 .main-nav li a:hover
 {
     border: 2px solid white;
 }
-
 .logo 
 {
     max-height: 80px;
     width: auto;
     float: left;   
 }
-
-.topnav {
+.topnav 
+{
   background-color: #74B9FF;
   overflow: hidden;
 }
-
-.topnav a {
+.topnav a 
+{
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -105,17 +102,16 @@ th {
   text-decoration: none;
   font-size: 17px;
 }
-
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
-
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
 }
 
+/*  */
 .players {
     height: 400px;
     width: auto;
@@ -149,9 +145,7 @@ th {
 
 .mem
 {
-    padding-left: 50px;
+    padding: 50px;
     width: auto;
     height: 300px;
-    
 }
-
