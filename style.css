@@ -156,6 +156,8 @@ th {
   border-radius: 50px;
   display: inline-block;
   margin: 10px;
+  overflow: hidden;
+  /*background: linear-gradient(134deg, #FDB913, #F85C00);*/
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -167,6 +169,8 @@ th {
 .card img
 {
   padding: 15px;
+  /*background: linear-gradient(134deg, #FDB913, #F85C00);*/
+
 }
 
 .container {
