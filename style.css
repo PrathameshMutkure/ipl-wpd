@@ -111,21 +111,27 @@ th {
   color: white;
 }
 
-/*  */
-.players {
-    height: 400px;
-    width: auto;
-    padding: 200px;
-    padding-top: 20px;
-    margin-left: 180px;
-}
-
 .txt1
 {
     text-align:center;
     color: #74B9FF;
     padding-top: 14px;
     font-size: 50px;  
+}
+
+.team-logos
+{
+    height: 200px;
+    width: auto;
+    padding: 30px 30px 30px 30px;
+}
+
+.players {
+    height: 400px;
+    width: auto;
+    padding: 200px;
+    padding-top: 20px;
+    margin-left: 180px;
 }
 
 .ply {
@@ -135,17 +141,47 @@ th {
   padding-bottom: 50px;
 }
  
-.team-logos
-{
-    height: 200px;
-    width: auto;
-    padding: 30px 30px 30px 30px;
-}
-
-
 .mem
 {
     padding: 50px;
     width: auto;
     height: 300px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border: 2px solid #E8290B;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  display: inline-block;
+}
+
+.card img
+{
+  padding: 15px;
+}
+
+.container {
+  text-align: center;
+  border-top: 2px solid #E8290B;
+}
+
+.player-name
+{
+  font-size: 25px;
+  color: white;
+}
+
+.role
+{
+  font-size: 20px;
+  color: white;
 }
