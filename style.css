@@ -1,3 +1,4 @@
+/*Standard Tags*/
  body
 {
    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/background.jpg);
@@ -16,7 +17,8 @@ h1
     padding-top: 30px;
 }
 
-.main-h1 {
+.main-h1 
+{
   font-family: helvitica;
   font-size: 100px;
 }
@@ -28,7 +30,8 @@ table, th, td
   border-spacing: 5px;
 }
 
-th, td {
+th, td 
+{
   padding: 15px;
 }
 
@@ -66,6 +69,7 @@ th {
 .main-nav li
 {
     display: inline-block;
+    margin: 5px;
 }
 .main-nav li a
 {
@@ -119,6 +123,7 @@ th {
     font-size: 50px;  
 }
 
+/*Player Image Tags*/
 .team-logos
 {
     height: 200px;
@@ -148,6 +153,7 @@ th {
     height: 300px;
 }
 
+/*Tags For Cards*/
 .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -188,4 +194,15 @@ th {
 {
   font-size: 20px;
   color: white;
+}
+
+.about
+{
+  font-size: 20px;
+  color: white;
+}
+
+.group
+{
+  display: inline-block;
 }
